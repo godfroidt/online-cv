@@ -29,7 +29,14 @@
     </div><!--//details-->
     {% endif %}
 
+    {% if experience.tech %}
+    <div class="tech">
+      {{ experience.tech | markdownify }}
+    </div><!--//tech-->
+    {% endif %}
+
   </div><!--//item-->
+  </hr>
   {% endfor %}
 
 </section><!--//section-->

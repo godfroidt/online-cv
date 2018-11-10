@@ -1,199 +1,162 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output. 
-#
-
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Thierry Godfroid
+    tagline: Senior Software Architect, Lead Developer and Team Manager
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    email: thierry.godfroid@gmail.com
+    linkedin: tgo
+    github: godfroidt
+    stack-overflow: 2059090/tgo
     codewars:
 
     languages:
-      - idiom: English
+      - idiom: French
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
-        
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
+      - item: Walking
+      - item: Comics
       - item: Cooking
-        link:
+      - item: Software & computers
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      At heart, I am a software developer. I have always liked the idea of building
+      something new to help people do their work, have fun or do anything meaningful (or less meaningful) with their computers.
+      When developing software you learn something new on a daily basis and that keeps the job fun.
 
-      Second paragraph if required.
+      Along the years, I have touched on all aspects of software development. From coding to specifications, to embedded or
+      distributed system architecture via setting up tool chains for other developers, support platforms and debug all kinds of
+      systems and software stacks.  Each job has been a new experience in a new industry which is, perhaps, what makes software
+      development so fun to me: it's still software and it's never the same thing!
+
+      I have also been a team lead & manager for quite a few years now. In that role, I try to build
+      well balanced teams, based on trust and responsibility, to help people focus on their job and grow as they fell like.
+      I believe in clear, honest and well-meaning management, providing a "safe" place for team members to excel at what they do.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Master in Computer Science
+      university: Facultés Universitaires Notre-Dame de la Paix, Namur
+      time: 1989 - 1992
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Lead Backend Developer & Backend Team Manager
+      time: Dec 2016 → Present
+      company: Frichti, Paris
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Leading the backend team day to day to support and improve all things backend.
+        Helped sanitize the stack and move from legacy monolith to a micro-service-like architecture with a strong effort being put on reliability, performance and fluid feature releases in coordination with frontend teams.
+          - Design the in-house inventory and WMS systems
+          - Re-architecht the whole cart-order-payment pipeline
+          - Helped design and implement the real-time preparation & delivery system
+          - Day to day support of other teams and operational emergencies
+          - Management of backend team incl. recruiting (permanent and freelance)
+      tech: |
+        Node.js, Postgresql, RabbitMQ, Redis, Kubernetes, Stripe API
 
-          - Bullet point
-          - Bullet point 
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Lead developer Concept Team Virtualized Gateways
+      time: Jan 2016 → Dec 2016
+      company: Technicolor CTO Office, Paris
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Worked on the definition and prototyping of Network Virtualized Functions to support home access gateways.
+      tech: |
+        Linux, python, scalabilité, systèmes distribués
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Team lead "Shared Tools"
+      time: Dec 2011 → Jan 2016
+      company: Technicolor Connected Home, Paris
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Worked on various initatives to improve quality, reliability and time to market for all Connected Home software teams.  Lead
+        a multi-region team (China, USA, France, Belgium) to deploy and support
+          - tooling for better (quality-wise) code reviews
+          - more modern and rapid SCM using git and continuous integration
+          - pushed for various automated testing solutions in embeeded software environement
+          - improve agility of software team w/ team specific tooling on demand
+          - responsible for tracking all open source usage in firmwares
+          - shorten deployment time of tooling and projects by working closely with international IT Teams
+      tech: |
+        Linux, BASH, node.js, mongodb, python, git, reviewboard, artifactory, open source
 
-          - Bullet point
-          - Bullet point
+    - role: Team Lead IP DECT
+      time: Jul 2010 → Dec 2011
+      company: Technicolor Connected Home R&D, Paris
+      details: |
+        Developed an IP DECT phone on a DSPG platform. This project was the first IP phone from Connected Home to reuse the new voice middleware
+        inherited from the residential gateways.
+      tech: |
+        Linux, C, embedded software, SIP, BASH
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    - role: Software Architect
+      time: Nov 2009 → Jun 2010
+      company: Technicolor Connected Home R&D, Paris
+      details: |
+        Worked on the definition and design of the next generation architecture and middleware for all residential gateways and set-top boxes.
+      tech: |
+        architecture, embedded software
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - role: Team Lead and Senior Developer
+      time: Mar 2003 → Nov 2009
+      company: Alcatel, Paris
+      details: |
+        When Nextenso was acquired by Alcatel, I managed various team around Alcatel's JAVA Telecom platform working either on telecom applications or the platform itself
+          - Productised the full MMS Messaging platform and support it through numerous commercial delployments
+          - Started, developed and lead the team that build Alcatel OMA XDMS (XML Document systems)
+          - Lead a 10 persons team that was in charge of supporting the core JAVA platform
+        Helped develop various telecom applications (MMS server, XDMS) on Alcatel JAVA telecom platform.
+        Lead the platform team in the end.
+      tech: |
+        C, JAVA, Perl, BASH, Linux, Lucene, MySQL, LDAP, XML, HTTP, SSL/SSH, security, scalability, distributed systems
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: Senior Developer
+      time: Jun 2001 → Mar 2003
+      company: Nextenso, Paris
+      details: |
+        As part of the CTO office, worked on various investigative projects around
+        OMA protocols, proxy plateforms and telecom applications.
+          - OMA Sync prototypes
+          - Helped design and implement a fully standard VXML browser to be used in Alcatel's PABX systems.
+          - Bootstrap Alcatel's first scalable, JAVA & Linux-based MMSC
+      tech: |
+        Linux, JAVA, C, VXML, web standards
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - role: Senior Developer
+      time: Apr 1999 → Mar 2001
+      company: Gibcom, Paris
+      details: |
+        Game development startup. I was a senior developer in charge of
+          - specification and development of various tools supporting all aspects of game creation (3D world building, logic scripting ...)
+          - develoement and mainteance of the logic engine
+          - handling all release management
+      tech: |
+        C, C++, MFC, Visual Basic
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - role: Pre-Sale Technical Engineer
+      time: Feb 1998 → Mar 1999
+      company: Bull SA, Paris
+      details: |
+        Technical pre-Sales, everything from answering architecture and product details to teaching platform architecture and/or programming
+      tech: |
+        SNMP, CMIP/CMIS, SML (lisp), X11
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - role: Software engineer & consultant
+      time: Apr 1993 → Feb 1998
+      company: World Systems, Luxemburg
+      details: |
+        Various software development contracts for Eurostat, the statistical arm of the European Commission
+      tech: |
+        C++, MFC, Visual Basic, ODBC, OCR, SQL
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
