@@ -51,8 +51,15 @@ education:
 
 
 experiences:
+    - role: Senior Software Engineer
+      time: Feb 2019 → present
+      company: Alan, Paris
+      details: 
+      tech: |
+        Node.js, Postgresql, Python, React
+
     - role: Lead Backend Developer & Backend Team Manager
-      time: Dec 2016 → Present
+      time: Dec 2016 → Feb 2019
       company: Frichti, Paris
       details: |
         Leading the backend team day to day to support and improve all things backend.
